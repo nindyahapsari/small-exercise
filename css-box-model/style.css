@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+    background-color: #E9E6E6;
+}
+
+.title-card {
+    border: 2px solid #178C55;
+    margin: 10px 10px 40px 20px;
+    background-color: #78F0B7;
+
+}
+
+.title-card h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.content-card {
+    padding: 10px 5px;
+    background-color: #24CCDA;
+    
+}
