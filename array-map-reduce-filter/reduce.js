@@ -10,7 +10,7 @@ const averageCalories = menu.reduce((acc, curr) => {
   return acc + curr.calories;
 }, 0);
 
-// console.log(averageCalories / menu.length);
+console.log(`the average calories is: ${averageCalories / menu.length}`);
 
 const product = {
   name: "AmazonBasics Apple Certified Lightning to USB Cable",
